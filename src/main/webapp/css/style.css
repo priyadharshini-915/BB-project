@@ -1,0 +1,91 @@
+/* =====================================================
+   Blood Bank Management System - Main Stylesheet
+   ===================================================== */
+
+/* Global */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.heart-icon {
+    color: #fff;
+    margin-right: 6px;
+}
+
+/* Navbar */
+.navbar-brand {
+    letter-spacing: 0.5px;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #dc3545 0%, #8b1a23 100%);
+    padding: 100px 0 90px;
+}
+.hero-section h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Page header for sub pages */
+.page-header {
+    background: linear-gradient(135deg, #dc3545 0%, #8b1a23 100%);
+    padding: 45px 0;
+}
+.page-header h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 10px;
+}
+.card-header {
+    border-radius: 10px 10px 0 0 !important;
+    font-weight: 600;
+}
+
+/* Stat cards on dashboard */
+.stat-card {
+    border-top: 4px solid transparent;
+}
+.stat-card:hover {
+    transform: translateY(-4px);
+    transition: transform 0.2s ease;
+}
+
+/* Tables */
+.table thead th {
+    background-color: #343a40;
+    color: #fff;
+    white-space: nowrap;
+}
+.badge {
+    font-size: 0.85rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #212529;
+}
+
+/* Success / error alerts */
+#msgBox {
+    margin-bottom: 12px;
+}
+
+/* Availability cards */
+.blood-group-card .card {
+    border: 1px solid #e9ecef;
+}
+.blood-group-card .card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+    .hero-section {
+        padding: 70px 0 60px;
+    }
+}
